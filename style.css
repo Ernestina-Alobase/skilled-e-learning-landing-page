@@ -111,8 +111,8 @@ a:active {
 
 .header-img-desktop {
   position: relative;
-  top: -100px;
-  left: 120px;
+  top: -75px;
+  left: 100px;
 }
 
 .header-img-tablet {
@@ -367,10 +367,17 @@ a:active {
   }
 }
 
-@media screen and (min-width: 1336px) and (max-width: 1440px) {
+@media screen and (min-width: 1336px) and (max-width: 1439px) {
   .header-img-desktop {
     position: relative;
     top: -100px;
     left: 30px;
+  }
+}
+
+@media screen and (min-width: 1441px) {
+  .header-img-desktop {
+    position: relative;
+    left: 35em;
   }
 }
