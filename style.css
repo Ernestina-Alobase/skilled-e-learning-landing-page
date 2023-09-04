@@ -1,0 +1,196 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700;800&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  color: #83869a;
+  font-style: normal;
+  overflow-x: hidden;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.navbar,
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar {
+  margin-top: 24px;
+  position: relative;
+  z-index: 2;
+}
+
+.btn {
+  width: 167px;
+  height: 56px;
+  border-radius: 28px;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+a:link,
+a:visited {
+  color: #f74780;
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+a:active {
+  color: #ffa7c3;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.nav-btn {
+  background: #13183f;
+}
+
+.nav-btn:active {
+  border-radius: 28px;
+  background: #666ca3;
+}
+
+.head-btn {
+  background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+}
+
+.head-btn:active {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.5) 0%,
+      rgba(255, 255, 255, 0.5) 100%
+    ),
+    linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  margin-top: -10%;
+  position: relative;
+}
+
+.header-content {
+  flex-shrink: 0;
+  flex-basis: 457px;
+}
+
+.h1 {
+  color: #13183f;
+  font-size: 56px;
+  font-weight: 800;
+  line-height: normal;
+  margin-bottom: 29px;
+}
+
+.header-paragraph {
+  margin-bottom: 29px;
+}
+
+.header-img-desktop {
+  position: relative;
+  top: -100px;
+  left: 120px;
+}
+
+.header-img-tablet {
+  display: none;
+}
+
+.header-img-mobile {
+  display: none;
+}
+
+.header-wrapper,
+.courses {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.courses {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 30px;
+  row-gap: 80px;
+}
+
+.course {
+  border-radius: 15px;
+  box-shadow: 0px 25px 50px 0px rgba(6, 22, 141, 0.04);
+  height: 322px;
+  padding: 0 32px;
+}
+
+.courses-wrapper {
+  background: linear-gradient(180deg, #fff 0%, #f0f1ff 100%);
+  padding-bottom: 140px;
+}
+
+.course-icon {
+  margin-top: -20px;
+}
+
+.courses-intro {
+  background: linear-gradient(180deg, #ff6f48 0%, #f02aa6 100%);
+  color: #fff;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 40px;
+  padding: 32px;
+  padding-top: 64px;
+}
+
+.course-heading {
+  color: #13183f;
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: 24px;
+  margin-top: 24px;
+}
+
+.course-description {
+  margin-bottom: 24px;
+}
+
+.footer {
+  background: #13183f;
+  height: 120px;
+  padding: 0 165px;
+}
+
+.footer-btn {
+  border-radius: 28px;
+  background: linear-gradient(180deg, #4851ff 0%, #f02aa6 100%);
+}
+
+.footer-btn:active {
+  border-radius: 28px;
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.5) 0%,
+      rgba(255, 255, 255, 0.5) 100%
+    ),
+    linear-gradient(180deg, #4851ff 0%, #f02aa6 100%);
+}
